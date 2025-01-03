@@ -1,0 +1,11 @@
+#
+# zed-racket
+#
+
+*.wasm
+
+#
+# Rust
+#
+
+/target
