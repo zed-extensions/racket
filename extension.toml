@@ -1,7 +1,7 @@
 id = "racket"
 name = "Racket"
 description = "Racket support."
-version = "0.0.2"
+version = "0.0.3"
 schema_version = 1
 authors = ["Mikayla Maki <mikayla@zed.dev>"]
 repository = "https://github.com/zed-extensions/racket"
