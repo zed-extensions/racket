@@ -11,7 +11,7 @@ impl RacketExtension {
         if let Some(path) = worktree.which("racket") {
             return Ok(path);
         }
-        return Err(format!("Could not find racket executable. Please ensure that Racket is installed and available in your PATH.").into());
+        Err("Could not find racket executable. Please ensure that Racket is installed and available in your PATH.".to_string())
     }
 }
 
